@@ -1,0 +1,25 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("BlackCat | Blox Fruits", "DarkTheme")
+
+-- Main Tab
+
+
+-- Teleport Tab
+
+
+-- Auto Farm Tab
+
+
+-- Item Tab
+
+
+-- Sea Event Tab
+
+
+-- Mirage 
+
+
+- V4 Tab
+
+
+-- Shop Tab
