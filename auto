@@ -1,1 +1,19 @@
+import time
 
+def teleport_to_next_location(current_level):
+    # Giả lập hành động teleport tới vị trí tiếp theo
+    print(f"Teleporting to location for level {current_level + 1}")
+    time.sleep(1)  # Giả lập thời gian teleport
+
+def auto_farm(start_level, end_level):
+    current_level = start_level
+    while current_level <= end_level:
+        # Giả lập hành động farm
+        print(f"Đang farm tại level {current_level}")
+        time.sleep(1)  # Đợi một khoảng thời gian để giả lập thời gian farm
+        current_level += 1
+        teleport_to_next_location(current_level)
+    print("Hoàn thành tự động farm.")
+
+# Bắt đầu auto farm từ level 1 đến 2600
+auto_farm(1, 2600)
